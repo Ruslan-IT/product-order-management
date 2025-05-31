@@ -3,6 +3,7 @@
 @section('content')
     <h1>Список товаров</h1>
     <a href="{{ route('products.create') }}" class="btn btn-primary mb-3">Добавить товар</a>
+    <a href="{{ route('orders.create') }}" class="btn btn-primary mb-3">Добавить заказ</a>
 
     <table class="table">
         <thead>
